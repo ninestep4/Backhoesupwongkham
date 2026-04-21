@@ -4,9 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/logo.png">
     <title>รถแม็คโครเช่าเชียงราย รับถมที่ดิน ขุดสระ ทำถนน รื้อถอน | หจก.ทรัพย์วงค์คำ แม่จัน แม่สาย</title>
     <meta name="description"
         content="บริการรถแม็คโครเช่าเชียงราย รับถมที่ดิน ขุดสระน้ำ ทำถนน เคลียร์ริ่งพื้นที่ ราคาถูก โดย หจก.ทรัพย์วงค์คำ ครอบคลุมพื้นที่แม่จัน แม่สาย เชียงแสน และทั่วเชียงราย">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="format-detection" content="telephone=yes">
+
+    <meta property="og:locale" content="th_TH">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="รถแม็คโครเช่าเชียงราย รับถมที่ดิน ขุดสระ ทำถนน รื้อถอน | หจก.ทรัพย์วงค์คำ">
+    <meta property="og:description"
+        content="บริการรถแม็คโครเช่าเชียงราย รับถมที่ดิน ขุดสระน้ำ ทำถนน เคลียร์ริ่งพื้นที่ ราคาถูก ครอบคลุมแม่จัน แม่สาย เชียงแสน และทั่วเชียงราย">
+    <meta property="og:image" content="../img/banner.jpg">
+    <meta property="og:image:alt" content="รถแม็คโครเช่าเชียงราย รับถมที่ดิน ขุดสระ ทำถนน รื้อถอน">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="รถแม็คโครเช่าเชียงราย | หจก.ทรัพย์วงค์คำ">
+    <meta name="twitter:description"
+        content="รถแม็คโครเช่าเชียงราย รับถมที่ดิน ขุดสระน้ำ ทำถนน เคลียร์ริ่งพื้นที่ ครอบคลุมแม่จัน แม่สาย เชียงแสน และทั่วเชียงราย">
+    <meta name="twitter:image" content="../img/banner.jpg">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ConstructionCompany",
+            "name": "หจก.ทรัพย์วงค์คำ",
+            "description": "บริการรถแม็คโครเช่าเชียงราย รับถมที่ดิน ขุดสระน้ำ ทำถนน เคลียร์ริ่งพื้นที่ และรื้อถอนสิ่งปลูกสร้าง ครอบคลุมแม่จัน แม่สาย เชียงแสน และทั่วจังหวัดเชียงราย",
+            "areaServed": {
+                "@type": "AdministrativeArea",
+                "name": "จังหวัดเชียงราย"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "232 ตำบลแม่คำ อำเภอแม่จัน",
+                "addressLocality": "เชียงราย",
+                "postalCode": "57240",
+                "addressCountry": "TH"
+            },
+            "telephone": [
+                "+66-82-758-4370",
+                "+66-64-002-0999"
+            ]
+        }
+    </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
@@ -77,7 +120,7 @@
     <header class="bg-cr-white sticky top-0 z-50 shadow-sm border-b border-slate-100">
         <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
             <div class="flex items-center gap-2">
-                <img src="../img/logo.jpg" alt="หจก.ทรัพย์วงค์คำ โลโก้" class="w-16 h-16 md:w-20 md:h-20 object-contain">
+                <img src="../img/logo.jpg" alt="หจก.ทรัพย์วงค์คำ โลโก้" class="w-16 h-16 md:w-20 md:h-20 object-contain" loading="eager" decoding="async">
                 <div>
                     <span class="text-xl md:text-2xl font-bold block leading-none">หจก.ทรัพย์วงค์คำ</span>
                     <span
@@ -99,7 +142,7 @@
 
     <section id="hero" class="relative bg-slate-950 text-white min-h-[85vh] flex items-center">
         <img src="../img/banner.jpg" alt="บริการรถแม็คโครให้เช่าเชียงรายและรับถมที่ดิน"
-            class="absolute inset-0 w-full h-full object-cover opacity-40">
+            class="absolute inset-0 w-full h-full object-cover opacity-40" loading="eager" fetchpriority="high" decoding="async">
         <div class="container mx-auto px-6 relative z-10 text-center py-20">
             <span
                 class="inline-block bg-cr-yellow text-slate-950 px-4 py-1 rounded-full text-xs md:text-sm font-extrabold mb-4 shadow-md uppercase">อันดับ
@@ -114,20 +157,44 @@
                 พื้นที่แม่สาย แม่จัน เชียงแสน และทั่วจังหวัดเชียงราย
             </p>
 
+            <style>
+                @keyframes scale-bounce {
+                    0% {
+                        transform: scale(1);
+                    }
+                    40% {
+                        transform: scale(1.04);
+                    }
+                    60% {
+                        transform: scale(0.95);
+                    }
+                    80% {
+                        transform: scale(1.02);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+                .animate-bounce-scale {
+                    animation: scale-bounce 1.7s cubic-bezier(.7,1.61,.6,.97) infinite;
+                }
+            </style>
             <div class="flex flex-col md:flex-row gap-6 justify-center items-center mb-14">
-                <div class="relative group transition-transform hover:scale-105 duration-300">
+                <div class="relative group transition-transform duration-300">
                     <span
-                        class="bg-gradient-to-tr from-cr-yellow via-orange-200 to-yellow-100 border-4 border-cr-yellow shadow-2xl text-slate-900 text-lg md:text-xl font-extrabold rounded-2xl px-8 py-6 flex items-center gap-4 animate-pop drop-shadow-2xl">
+                        class="bg-gradient-to-tr from-cr-yellow via-orange-200 to-yellow-100 border-4 border-cr-yellow shadow-2xl text-slate-900 text-lg md:text-xl font-extrabold rounded-2xl px-8 py-6 flex items-center gap-4 drop-shadow-2xl animate-bounce-scale group-hover:scale-110"
+                        style="will-change: transform;">
                         <i class="fas fa-check-circle text-white bg-cr-orange rounded-full p-2 shadow-lg text-2xl"></i>
-                        <span class="drop-shadow font-bold">ปรึกษาและประเมินราคาฟรี</span>
+                        <span class="drop-shadow font-bold">ปรึกษาและประเมินราคา ฟรี‼️</span>
                     </span>
                     <div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4/5 h-2 rounded-b-full bg-cr-yellow blur-[7px] opacity-50"></div>
                 </div>
-                <div class="relative group transition-transform hover:scale-105 duration-300">
+                <div class="relative group transition-transform duration-300">
                     <span
-                        class="bg-gradient-to-tr from-green-200 via-white to-orange-50 border-4 border-cr-yellow shadow-2xl text-slate-900 text-lg md:text-xl font-extrabold rounded-2xl px-8 py-6 flex items-center gap-4 animate-pop drop-shadow-2xl">
+                        class="bg-gradient-to-tr from-green-200 via-white to-orange-50 border-4 border-cr-yellow shadow-2xl text-slate-900 text-lg md:text-xl font-extrabold rounded-2xl px-8 py-6 flex items-center gap-4 drop-shadow-2xl animate-bounce-scale group-hover:scale-110"
+                        style="will-change: transform;">
                         <i class="fas fa-map-marked-alt text-white bg-green-500 rounded-full p-2 shadow-lg text-2xl"></i>
-                        <span class="drop-shadow font-bold">วัดระดับด้วยกล้องฟรี</span>
+                        <span class="drop-shadow font-bold">วัดระดับด้วยกล้อง ฟรี‼️</span>
                     </span>
                     <div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4/5 h-2 rounded-b-full bg-green-400 blur-[7px] opacity-30"></div>
                 </div>
@@ -142,42 +209,175 @@
                     class="bg-cr-orange text-white px-10 py-4 rounded-full text-xl font-bold hover:scale-105 transition shadow-lg tracking-wider border-2 border-white">
                     📞 โทรจองคิว: 064-002-0999
                 </a>
-                <a href="https://line.me/ti/p/~0981414698" target="_blank"
-                    class="bg-[#00B900] text-white px-10 py-4 rounded-full text-xl font-bold hover:scale-105 transition shadow-lg tracking-wider">
+                <button id="line-popup-btn"
+                    class="bg-[#00B900] text-white px-10 py-4 rounded-full text-xl font-bold hover:scale-105 transition shadow-lg tracking-wider flex items-center justify-center">
                     <i class="fab fa-line mr-2"></i> ทักแชทสอบถาม
-                </a>
+                </button>
+                <!-- Popup Modal -->
+                <div id="line-popup-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 hidden">
+                    <div class="bg-white rounded-2xl shadow-2xl p-8 flex flex-col items-center relative max-w-xs">
+                        <button id="close-line-popup" class="absolute top-3 right-3 text-xl text-gray-500 hover:text-red-600">&times;</button>
+                        <img src="../img/line.jpg" alt="Line" class="w-48 h-48 object-contain rounded-xl mb-1" loading="lazy" decoding="async">
+                        <div class="mt-2 text-center">
+                            <span class="font-bold text-lg text-slate-700">สแกน LINE หรือแอดไลน์</span><br>
+                            <span class="text-sm text-slate-500">Add friend (Tel): 0640020999</span>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                // Popup show/hide logic
+                document.addEventListener('DOMContentLoaded', function () {
+                    var btn = document.getElementById('line-popup-btn');
+                    var modal = document.getElementById('line-popup-modal');
+                    var close = document.getElementById('close-line-popup');
+                    btn.addEventListener('click', function () {
+                        modal.classList.remove('hidden');
+                    });
+                    close.addEventListener('click', function () {
+                        modal.classList.add('hidden');
+                    });
+                    modal.addEventListener('click', function (e) {
+                        if(e.target === modal) {
+                            modal.classList.add('hidden');
+                        }
+                    });
+                });
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 bg-white border-b border-slate-100">
+        <div class="container mx-auto px-6">
+            <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">
+                            รถแมคโครเช่าเชียงราย / รับถมที่
+                        </h2>
+                        <p class="text-slate-600 mt-2">
+                            ให้บริการ <span class="font-bold text-cr-orange">รถแมคโครเช่า</span> พร้อมคนขับ และงาน
+                            <span class="font-bold text-cr-orange">รับถมที่</span> ครอบคลุมหลายพื้นที่ในจังหวัดเชียงราย
+                        </p>
+                    </div>
+                    <a href="#services"
+                        class="inline-flex items-center justify-center bg-cr-orange text-white px-6 py-3 rounded-full font-bold hover:scale-105 transition shadow-lg">
+                        ดูบริการทั้งหมด
+                    </a>
+                </div>
+
+                <div class="mt-6 flex flex-wrap gap-3">
+                    <a href="#area"
+                        class="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-700 font-semibold hover:border-cr-orange hover:text-cr-orange transition">
+                        รถแมคโครเช่า แม่จัน
+                    </a>
+                    <a href="#area"
+                        class="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-700 font-semibold hover:border-cr-orange hover:text-cr-orange transition">
+                        รถแมคโครเช่า แม่สาย
+                    </a>
+                    <a href="#area"
+                        class="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-700 font-semibold hover:border-cr-orange hover:text-cr-orange transition">
+                        รถแมคโครเช่า เชียงแสน
+                    </a>
+                    <a href="#seo-area-directory"
+                        class="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-700 font-semibold hover:border-cr-orange hover:text-cr-orange transition">
+                        รถแมคโครเช่า ดอยหลวง
+                    </a>
+                    <span
+                        class="px-4 py-2 rounded-full bg-cr-yellow/70 border border-cr-yellow text-slate-900 font-extrabold">
+                        รถแมคโครเช่า เชียงราย
+                    </span>
+                    <span
+                        class="px-4 py-2 rounded-full bg-cr-yellow/70 border border-cr-yellow text-slate-900 font-extrabold">
+                        รับถมที (รับถมที่)
+                    </span>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="py-16 bg-cr-yellow border-b border-slate-100">
         <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
-                    <div class="text-cr-orange text-5xl mb-4"><i class="fas fa-hard-hat"></i></div>
-                    <h3 class="text-xl font-bold mb-2 uppercase">แม็คโครรับจ้างมืออาชีพ</h3>
-                    <p class="text-slate-600">รับงาน <span class="keyword-highlight">ขุดสระโคกหนองนา</span> ขุดฟุตติ้ง
-                        และงานเคลียร์ริ่งพื้นที่รกร้าง งานเล็กงานใหญ่เราพร้อมลุย</p>
-                    <small class="text-sm text-slate-500">แม็คโครเช่าแม่จัน / แม็คโครเช่าแม่สาย / แม็คโครเช่าเชียงแสน /
-                        แม็คโครเช่าเชียงราย</small>
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-950">
+                    รถแม็คโครเช่าเชียงราย + รับถมที่ดิน + ขุดสระโคกหนองนา
+                </h2>
+                <p class="text-slate-700 mt-3 text-base md:text-lg">
+                    ทีมงาน <span class="font-bold text-cr-orange">หจก.ทรัพย์วงค์คำ</span> รับงานไว ราคายุติธรรม
+                    ประเมินหน้างานฟรี และวัดระดับด้วยกล้องฟรี (ตามเงื่อนไขหน้างาน)
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/70 backdrop-blur rounded-2xl p-8 shadow-md border border-white/60">
+                    <div class="text-cr-orange text-5xl mb-5 text-center"><i class="fas fa-hard-hat"></i></div>
+                    <h3 class="text-xl font-extrabold mb-3 uppercase text-center">แม็คโครรับจ้างมืออาชีพ</h3>
+                    <p class="text-slate-700 text-sm text-center">
+                        เหมาะกับงานบ้าน งานสวน งานไร่ และหน้างานที่ต้องการคนขับชำนาญ
+                    </p>
+                    <ul class="mt-5 space-y-2 text-sm text-slate-700">
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span>ขุดฟุตติ้ง / ขุดฐานราก / ปรับพื้นที่</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span>เคลียร์ริ่งพื้นที่รกร้าง ตัด/ขนเศษวัสดุ</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span><span class="font-bold text-cr-orange">ขุดสระโคกหนองนา</span> และทำคันดิน</span></li>
+                    </ul>
+                    <div class="mt-5 text-center">
+                        <p class="text-xs text-slate-600 font-semibold">
+                            รถแม็คโครเช่า แม่จัน / แม่สาย / เชียงแสน / เมืองเชียงราย / ดอยหลวง
+                        </p>
+                    </div>
                 </div>
-                <div class="text-center">
-                    <div class="text-cr-orange text-5xl mb-4"><i class="fas fa-mountain"></i></div>
-                    <h3 class="text-xl font-bold mb-2 uppercase">รับถมที่ดินราคาถูก</h3>
-                    <p class="text-slate-600">บริการ <span class="keyword-highlight">ถมดินเชียงราย</span> ราคาประหยัด
-                        ทั้งดินดาน ดินดำ ลูกรัง พร้อมเกรดหน้าดินให้เรียบสวย</p>
-                    <small class="text-sm text-slate-500">ถมดินเชียงราย / ถมดินแม่จัน / ถมดินแม่สาย /
-                        ถมดินเชียงแสน</small>
+
+                <div class="bg-white/70 backdrop-blur rounded-2xl p-8 shadow-md border border-white/60">
+                    <div class="text-cr-orange text-5xl mb-5 text-center"><i class="fas fa-mountain"></i></div>
+                    <h3 class="text-xl font-extrabold mb-3 uppercase text-center">รับถมที่ดินราคาคุ้มค่า</h3>
+                    <p class="text-slate-700 text-sm text-center">
+                        คำนวณงานและแนะนำชนิดดินให้เหมาะกับการใช้งาน ลดปัญหาทรุด/น้ำขัง
+                    </p>
+                    <ul class="mt-5 space-y-2 text-sm text-slate-700">
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span>ถมดินดาน / ดินดำ / ลูกรัง (ตามที่ลูกค้าต้องการ)</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span>เกรดปรับหน้าดินให้เรียบสวย พร้อมเตรียมพื้นที่ปลูก/ก่อสร้าง</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span>งานถมที่สร้างบ้าน โรงงาน และแปลงเกษตร</span></li>
+                    </ul>
+                    <div class="mt-5 text-center">
+                        <p class="text-xs text-slate-600 font-semibold">
+                            รับถมที่ เมืองเชียงราย / แม่จัน / แม่สาย / เชียงแสน และใกล้เคียง
+                        </p>
+                    </div>
                 </div>
-                <div class="text-center">
-                    <div class="text-cr-orange text-5xl mb-4"><i class="fas fa-tools"></i></div>
-                    <h3 class="text-xl font-bold mb-2 uppercase">แม็คโครหัวเจาะ/หัวแย็ก</h3>
-                    <p class="text-slate-600">ให้เช่า <span class="keyword-highlight">รถแม็คโครหัวเจาะ</span>
-                        สกัดพื้นคอนกรีต รื้อถอนอาคารบ้านเรือน และวางท่อระบายน้ำ</p>
-                    <small class="text-sm text-slate-500">หัวเจาะเชียงราย / หัวแย็กแม่จันทร์ / หัวแย็กแม่สาย /
-                        หัวแย็กเชียงแสน</small>
+
+                <div class="bg-white/70 backdrop-blur rounded-2xl p-8 shadow-md border border-white/60">
+                    <div class="text-cr-orange text-5xl mb-5 text-center"><i class="fas fa-tools"></i></div>
+                    <h3 class="text-xl font-extrabold mb-3 uppercase text-center">หัวเจาะ / หัวแย็ก / รื้อถอน</h3>
+                    <p class="text-slate-700 text-sm text-center">
+                        สำหรับงานหนักที่ต้องการความรวดเร็วและความปลอดภัยสูง
+                    </p>
+                    <ul class="mt-5 space-y-2 text-sm text-slate-700">
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span><span class="font-bold text-cr-orange">รถแม็คโครหัวเจาะ</span> สกัดพื้นคอนกรีต/หิน</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span>รื้อถอนสิ่งปลูกสร้าง เตรียมพื้นที่ก่อสร้าง</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-cr-orange mt-1"></i><span>วางท่อระบายน้ำ / ขุดร่องน้ำ / งานท่อ</span></li>
+                    </ul>
+                    <div class="mt-5 text-center">
+                        <p class="text-xs text-slate-600 font-semibold">
+                            หัวเจาะเชียงราย / หัวแย็กแม่จัน / หัวแย็กแม่สาย / หัวแย็กเชียงแสน
+                        </p>
+                    </div>
                 </div>
             </div>
+
+            <!-- <div class="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
+                <a href="tel:0827584370"
+                    class="bg-cr-orange text-white px-8 py-4 rounded-full text-lg font-extrabold hover:scale-105 transition shadow-lg border-2 border-white">
+                    📞 โทรด่วน 082-758-4370
+                </a>
+                <a href="tel:0640020999"
+                    class="bg-slate-900 text-white px-8 py-4 rounded-full text-lg font-extrabold hover:scale-105 transition shadow-lg border-2 border-white">
+                    📞 โทร 064-002-0999
+                </a>
+                <a href="#services"
+                    class="bg-white text-slate-900 px-8 py-4 rounded-full text-lg font-extrabold hover:scale-105 transition shadow-lg border-2 border-slate-900/10">
+                    ดูรายละเอียดบริการ
+                </a>
+            </div> -->
         </div>
     </section>
 
@@ -275,29 +475,29 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="../img/1.jpg" alt="แม็คโครในสนาม" class="w-full h-[32rem] md:h-[32rem] object-cover">
+                            <img src="../img/1.jpg" alt="แม็คโครในสนาม" class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                         <div class="swiper-slide">
-                            <img src="../img/2.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover">
+                            <img src="../img/2.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                         <div class="swiper-slide">
                             <img src="../img/3.jpg" alt="แม็คโครเคลียร์พื้นที่"
-                                class="w-full h-[32rem] md:h-[32rem] object-cover">
+                                class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                         <div class="swiper-slide">
-                            <img src="../img/4.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover">
+                            <img src="../img/4.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                         <div class="swiper-slide">
-                            <img src="../img/5.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover">
+                            <img src="../img/5.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                         <div class="swiper-slide">
-                            <img src="../img/6.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover">
+                            <img src="../img/6.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                         <div class="swiper-slide">
-                            <img src="../img/7.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover">
+                            <img src="../img/7.jpg" alt="แม็คโครขุดดิน" class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                         <div class="swiper-slide">
-                            <img src="../img/8.jpg" alt="รถแม็คโครถมที่" class="w-full h-[32rem] md:h-[32rem] object-cover">
+                            <img src="../img/8.jpg" alt="รถแม็คโครถมที่" class="w-full h-[32rem] md:h-[32rem] object-cover" loading="lazy" decoding="async">
                         </div>
                     </div>
                     <!-- If you want navigation arrows: -->
@@ -378,62 +578,63 @@
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center justify-between mb-16 text-center md:text-left">
                 <div>
-                    <h2 class="text-4xl font-bold mb-3 uppercase">ผลงานหน้างานล่าสุด</h2>
+                    <h2 class="text-4xl font-bold mb-3 uppercase">ผลงานหน้างาน</h2>
                     <p class="text-slate-600">การันตีความพอใจจากลูกค้าทั่วจังหวัดเชียงราย ด้วยภาพถ่ายจากหน้างานจริง</p>
                 </div>
                 <a href="https://www.facebook.com/SUPWONGKHAM" target="_blank" rel="noopener"
-                    class="text-slate-900 hover:text-white mt-4 md:mt-0 font-bold border-b border-cr-yellow pb-1">ติดตามผลงานใน
+                    class="bg-white text-slate-900 hover:text-white hover:bg-cr-yellow mt-4 md:mt-0 font-bold border-b border-cr-yellow pb-1 px-4 py-2 rounded shadow transition">ติดตามผลงานใน
                     Facebook →</a>
+              
 
             </div>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/1.jpg" alt="Gallery Image 1" class="w-full h-full object-cover">
+                    <img src="../img/1.jpg" alt="Gallery Image 1" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/2.jpg" alt="Gallery Image 2" class="w-full h-full object-cover">
+                    <img src="../img/2.jpg" alt="Gallery Image 2" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/3.jpg" alt="Gallery Image 3" class="w-full h-full object-cover">
+                    <img src="../img/3.jpg" alt="Gallery Image 3" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/4.jpg" alt="Gallery Image 4" class="w-full h-full object-cover">
+                    <img src="../img/4.jpg" alt="Gallery Image 4" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/5.jpg" alt="Gallery Image 5" class="w-full h-full object-cover">
+                    <img src="../img/5.jpg" alt="Gallery Image 5" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/6.jpg" alt="Gallery Image 6" class="w-full h-full object-cover">
+                    <img src="../img/6.jpg" alt="Gallery Image 6" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/7.jpg" alt="Gallery Image 7" class="w-full h-full object-cover">
+                    <img src="../img/7.jpg" alt="Gallery Image 7" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/8.jpg" alt="Gallery Image 8" class="w-full h-full object-cover">
+                    <img src="../img/8.jpg" alt="Gallery Image 8" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/9.jpg" alt="Gallery Image 9" class="w-full h-full object-cover">
+                    <img src="../img/9.jpg" alt="Gallery Image 9" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/10.jpg" alt="Gallery Image 10" class="w-full h-full object-cover">
+                    <img src="../img/10.jpg" alt="Gallery Image 10" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/11.jpg" alt="Gallery Image 11" class="w-full h-full object-cover">
+                    <img src="../img/11.jpg" alt="Gallery Image 11" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/12.jpg" alt="Gallery Image 12" class="w-full h-full object-cover">
+                    <img src="../img/12.jpg" alt="Gallery Image 12" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/13.jpg" alt="Gallery Image 13" class="w-full h-full object-cover">
+                    <img src="../img/13.jpg" alt="Gallery Image 13" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/14.jpg" alt="Gallery Image 14" class="w-full h-full object-cover">
+                    <img src="../img/14.jpg" alt="Gallery Image 14" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/15.jpg" alt="Gallery Image 15" class="w-full h-full object-cover">
+                    <img src="../img/15.jpg" alt="Gallery Image 15" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="gallery-item relative aspect-square rounded-xl overflow-hidden shadow-2xl">
-                    <img src="../img/16.jpg" alt="Gallery Image 16" class="w-full h-full object-cover">
+                    <img src="../img/16.jpg" alt="Gallery Image 16" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -444,7 +645,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div class="bg-white p-10 rounded-2xl shadow-2xl border border-slate-100">
                     <h2 class="text-3xl font-bold mb-8 uppercase italic border-l-8 border-cr-orange pl-4">
-                        จองคิวรถแม็คโคร / ถมที่</h2>
+                        จองคิวรถแม็คโคร / ถมที่ / อื่นๆ</h2>
                     <div class="space-y-6">
                         <a href="tel:0827584370"
                             class="flex items-center gap-5 p-4 rounded-xl hover:bg-slate-50 transition border border-transparent hover:border-slate-200">
@@ -470,8 +671,8 @@
                             <div>
                                 <span class="text-sm text-slate-500 uppercase font-bold tracking-widest">LINE
                                     Official</span>
-                                <p class="text-2xl font-bold text-slate-800"><img src="../img/line.jpg" alt="Line"
-                                        style="width: 140px; height: 140px;"></p>
+                            <p class="text-2xl font-bold text-slate-800"><img src="../img/line.jpg" alt="Line"
+                                    style="width: 140px; height: 140px;" loading="lazy" decoding="async"></p>
                             </div>
                         </a>
                         <a href="https://www.facebook.com/SUPWONGKHAM" target="_blank"
@@ -521,17 +722,17 @@
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition">
                     <h4 class="font-bold text-cr-orange mb-2">อำเภอแม่จัน</h4>
                     <p class="text-xs text-slate-500">แม็คโครเช่าแม่จัน / ถมที่ดินแม่จัน / ขุดสระแม่จัน / รื้อถอนแม่จัน
-                        / แม็คโครเล็กแม่จัน / ขุดเจาะแม่จัน</p>
+                        / แม็คโครเล็กแม่จัน / ขุดเจาะแม่จัน / โคกหนองนาแม่จัน</p>
                 </div>
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition">
                     <h4 class="font-bold text-cr-orange mb-2">อำเภอแม่สาย</h4>
                     <p class="text-xs text-slate-500">แม็คโครเช่าแม่สาย / ถมที่ดินแม่สาย / ขุดสระแม่สาย / รื้อถอนแม่สาย
-                        / แม็คโครเล็กแม่สาย / ขุดเจาะแม่สาย</p>
+                        / แม็คโครเล็กแม่สาย / ขุดเจาะแม่สาย / โคกหนองนาแม่สาย</p>
                 </div>
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition">
                     <h4 class="font-bold text-cr-orange mb-2">อำเภอเชียงแสน</h4>
                     <p class="text-xs text-slate-500">แม็คโครเช่าเชียงแสน / ถมที่ดินเชียงแสน / ขุดสระเชียงแสน /
-                        รื้อถอนเชียงแสน / แม็คโครเล็กเชียงแสน / ขุดเจาะเชียงแสน</p>
+                        รื้อถอนเชียงแสน / แม็คโครเล็กเชียงแสน / ขุดเจาะเชียงแสน / โคกหนองนาเชียงแสน</p>
                 </div>
                 <!-- <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition">
                     <h4 class="font-bold text-cr-orange mb-2">อำเภอดอยหลวง</h4>
@@ -540,7 +741,7 @@
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition">
                     <h4 class="font-bold text-cr-orange mb-2">เมืองเชียงราย</h4>
                     <p class="text-xs text-slate-500">รถแม็คโครเช่าเมืองเชียงราย / ถมที่ดินเมืองเชียงราย /
-                        ขุดสระเมืองเชียงราย / รื้อถอนเมืองเชียงราย / แม็คโครเล็กเมืองเชียงราย / ขุดเจาะเมืองเชียงราย</p>
+                        ขุดสระเมืองเชียงราย / รื้อถอนเมืองเชียงราย / แม็คโครเล็กเมืองเชียงราย / ขุดเจาะเมืองเชียงราย / โคกหนองนาเชียงราย</p>
                 </div>
             </div>
         </div>
@@ -668,7 +869,7 @@
                             class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-cr-orange transition"><i
                                 class="fab fa-facebook-f"></i></a>
                         <!-- <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#00B900] transition"><i class="fab fa-line"></i></a> -->
-                        <img src="../img/line.jpg" alt="Line" class="w-20 h-23">
+                        <img src="../img/line.jpg" alt="Line" class="w-20 h-23" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -723,7 +924,7 @@
         <hr class="border-white/10 mb-8">
 
         <div class="flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 gap-4">
-            <p>© 2026 หจก.ทรัพย์วงค์คำ & 9Century Backhoe - All Rights Reserved.</p>
+            <p>© 2026 หจก.ทรัพย์วงค์คำ - All Rights Reserved.</p>
             <div class="flex items-center gap-4">
                 <!-- <span class="bg-white/5 px-3 py-1 rounded-full">👁️ ผู้เข้าชม: 2,169 ราย</span> -->
                 <a href="https://9century.pages.dev" target="_blank"><span
